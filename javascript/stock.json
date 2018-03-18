@@ -1,0 +1,164 @@
+{
+	"categories" : [
+			{
+				"id": "Graffiti",
+				"name": "Graffiti",
+				"imgs": ["project1"]
+			},{
+				"id": "Pentelikon",
+				"name": "Pentelikon",
+				"imgs": ["project2"]
+			},{
+				"id": "Thassos",
+				"name": "Thassos",
+				"imgs": ["project2"]
+			},{
+				"id": "Sivec",
+				"name": "Sivec",
+				"imgs": ["project2"]
+			},{
+				"id": "Pirgon",
+				"name": "Pirgon",
+				"imgs": ["project2"]
+			},{
+				"id": "Kyknos",
+				"name": "Kyknos",
+				"imgs": ["project2"]
+			},{
+				"id": "Matrix",
+				"name": "Matrix",
+				"imgs": ["project2"]
+			},{
+				"id": "Volakas",
+				"name": "Volakas",
+				"imgs": ["project2"]
+			},{
+				"id": "New_color",
+				"name": "New_color",
+				"imgs": ["project2"]
+			}
+
+	],
+	"products" : [
+		{
+			"id": "1",
+			"name": "Thassos Extra White AAA",
+			"imgs": ["1"],
+			"categories": "Thassos",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Polished"
+				}
+			] 
+		},{
+			"id": "2",
+			"name": "Sivec Extra",
+			"imgs": ["1"],
+			"categories": "Sivec",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Polished"
+				}
+			] 
+		},{
+			"id": "3",
+			"name": "Sivec",
+			"imgs": ["1"],
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Polished"
+				}
+			] 
+		},{
+			"id": "4",
+			"name": "Pirgon Arabasque",
+			"imgs": ["Pirgon Arabesque 100m"],
+			"categories": "Sivec",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Polished"
+				}
+			] 
+		},{
+			"id": "5",
+			"name": "Pirgon Mist Bookmatch",
+			"imgs": ["Pirgon Mist_cut"],
+			"categories": "Sivec",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Polished"
+				}
+			] 
+		},{
+			"id": "6",
+			"name": "Pentelikon Extra",
+			"imgs": ["PENTELIKON_1","PENTELIKON_2","PENTELIKON_3", "PENTELIKON_4", "PENTELIKON_5", "PENTELIKON_6", "PENTELIKON_7", "PENTELIKON_8", "PENTELIKON_9", "PENTELIKON_10", "PENTELIKON_11", "PENTELIKON_12", "PENTELIKON_13", "PENTELIKON_14", "PENTELIKON_15", "PENTELIKON_16", "PENTELIKON_17", "PENTELIKON_18", "PENTELIKON_19", "PENTELIKON_20", "PENTELIKON_21", "PENTELIKON_22" , "PENTELIKON_23" , "PENTELIKON_24"],
+			"categories": "Sivec",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Polished"
+				}
+			] 
+		},{
+			"id": "7",
+			"name": "Kyknos",
+			"imgs": ["Kyknos"],
+			"categories": "Sivec",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Polished"
+				}
+			] 
+		},{
+			"id": "8",
+			"name": "Matrix",
+			"imgs": ["Matrix_cut"],
+			"categories": "Sivec",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Brushed"
+				}
+			] 
+		},{
+			"id": "9",
+			"name": "Graffiti Polished",
+			"imgs": ["GRAFITE_1","GRAFITE_2","GRAFITE_3", "GRAFITE_4", "GRAFITE_5", "GRAFITE_6", "GRAFITE_7", "GRAFITE_8", "GRAFITE_9", "GRAFITE_10", "GRAFITE_13", "GRAFITE_14", "GRAFITE_15", "GRAFITE_16", "GRAFITE_17", "GRAFITE_18", "GRAFITE_19", "GRAFITE_23" ,"GRAFITE_27"],
+			"categories": "Sivec",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "20mm",
+					"finish": "Polished"
+				}
+			] 
+		},{
+			"id": "10",
+			"name": "Graffiti Brushed",
+			"imgs": ["GRAFITE_30","GRAFITE_31","GRAFITE_32","GRAFITE_33", "GRAFITE_34", "GRAFITE_35", "GRAFITE_36", "GRAFITE_37", "GRAFITE_38", "GRAFITE_39", "GRAFITE_40", "GRAFITE_41", "GRAFITE_42", "GRAFITE_43", "GRAFITE_44", "GRAFITE_45", "GRAFITE_46", "GRAFITE_47"],
+			"categories": "Sivec",
+			"descriptions" : [
+				{
+					"material" : "marble",
+					"thickness" : "30mm",
+					"finish": "Brushed"
+				}
+			] 
+		}
+	]
+}

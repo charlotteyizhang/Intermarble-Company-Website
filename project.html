@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>interMarble</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+
+  <body class="preload" data-spy="scroll" data-target=".navbar" data-offset="90">
+  
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id ="navbar-example2" data-toggle="affix">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png">interMarble</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mt-0 p-3">
+          <li class="nav-item simple-nav-btn">
+            <a class="nav-link" href="index.html#im-about">about</a>
+          </li>
+          <li class="nav-item simple-nav-btn">
+            <a class="nav-link" href="index.html#im-contact">contact</a>
+          </li>
+          <li class="nav-item simple-nav-btn active">
+            <a class="nav-link" href="project.html">projects</a>
+          </li>
+          <li class="nav-item addressed-nav-btn">
+            <a class="nav-link" href="stock.html">stock</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+   <div id="wrap" class="top-margin-140"> 
+    <!--===============================
+    =            main body            =
+    ================================-->
+  <!--   <div class="main-body"> -->
+       <!--===================================
+       =            first section            =
+       ====================================-->
+    <div class="container" id="im-projects">
+    </div>
+    
+  <div id="im-gallery-single" class="slider-wrapper carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators im-gallery-indicators">
+      </ol>
+  <div class="carousel-inner" id="im-gallery-carousel" role="listbox">
+  </div>
+  <a class="carousel-control-prev" href="#im-gallery-single" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#im-gallery-single" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <div id="im-gallery-close" class="im-gallery-close"></div>
+</div>
+    <!--====  End of main body  ====-->
+
+    <footer>
+      <p>Copyright interMarble</p>
+      <a href="charlottezhang.com">Site design by Charlotte Zhang</a>
+    </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/myjs.js"></script>
+    <script>
+      $(function() {
+        initNav();
+        initProjects();   
+        $('body').removeClass('preload');   
+      })
+      
+    </script>
+  </body>
+</html>

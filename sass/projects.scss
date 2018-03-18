@@ -1,0 +1,126 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/layout";
+@import "partials/base";
+@import "compass/css3";
+
+.img-c {
+  // height: 450px;
+  padding: .3em;
+  overflow: hidden;
+  margin: .5em 0;
+  transition: width ease 400ms, height ease 350ms, left cubic-bezier(0.4, 0, 0.2, 1) 420ms, top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
+ 
+  &.active {
+  	width: 100% !important;
+	height: 100% !important;
+	position: absolute;
+	z-index: 9999;
+  }
+
+  &.postactive {
+	position: absolute;
+	z-index: 9999;
+	pointer-events: none;
+   }
+
+  &.active.positioned {
+	  left: 0% !important;
+	  top: 0% !important;
+	  transition-delay: 50ms;
+	}
+
+
+}
+
+.img-w {
+	// margin-top: 2%;
+	width: 100%;
+	height: 290px;
+	// background-size: cover;
+	background-position: center;
+	cursor: pointer;
+	transition: transform ease-in-out 300ms;
+
+	& img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+.img-c:hover .img-w {
+  transform: scale(1.08);
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+}
+
+
+.slider-wrapper {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 10%;
+	left: 0;
+	padding: 2% 8%;
+	background-color: $black; /* Black w/ opacity */
+
+	@media all and (max-width: $tablets-width){
+		padding: 0;
+	}
+
+}
+
+.im-gallery{
+
+	&-description{
+		// float: left;
+		// background: $white;
+		width: 100%;
+		padding: .4em;
+		border: 0 1px 1px 1px solid #000;
+		// background-color: #edf3eb;
+
+		border-radius: 0px 0px 3px 3px;
+	    box-sizing: border-box;
+	    box-shadow: 0 1px 2px rgba(25,25,25,0.2);
+	    cursor: pointer;
+	}
+
+	&-description p{
+		margin: .5em 0;
+		color: $content-colour;
+		font-family: $content-font;
+		text-transform: capitalize;
+	}
+
+	&-img{
+		// height: 70%;
+		height: -webkit-fill-available;
+		max-height: 800px;
+		max-width: 100%;
+		margin: auto;
+		object-fit: cover;
+	}
+
+	&-indicators{
+		bottom: 90px;
+	}
+
+	&-close {
+		position: absolute;
+		z-index: 2;
+		top: 30px;
+		right: 30px;
+		width: 48px;
+		height: 48px;
+		background: url('../images/icon-close.svg') no-repeat center center;
+	
+		&:hover{
+			transform: rotate(90deg);
+			transition: transform 0.5s ease-in-out;
+		}
+	}
+}

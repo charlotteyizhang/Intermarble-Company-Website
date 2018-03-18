@@ -1,0 +1,87 @@
+@mixin default-text-color($tc: $black){
+	color: $tc;
+}
+
+
+@mixin im-intro-bg-ani($time : 1s, $opacity : 0.5) {
+
+	 background-color: rgba(3, 3, 3, $opacity);
+
+    animation: up $time ease-in-out;
+    -webkit-animation: up $time ease-in-out;
+
+    @media screen and (max-width: $tablets-width){
+      animation: none;
+      -webkit-animation: none;
+    };
+
+    & p{ 
+    	position: absolute;
+	    bottom: 10vh;
+	    width: 100%;
+	    left: 0;
+	    color: #fff;
+	    opacity: .5;
+	    font-size: 2em;
+	    font-weight: lighter;
+	    letter-spacing: .6em;
+	    height: 10vh;
+	    background: transparent;
+
+      @media screen and (max-width: $tablets-width){
+        bottom: 0 !important;
+      }
+    }
+
+    
+
+    &:hover {
+    	background-color: rgba(3,3,3, .6);
+    	cursor: pointer;
+    	& p{
+    		bottom: 30vh;
+    		opacity: 1;
+    		text-decoration: none;
+    		transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+    		-webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+    		-moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);    	
+
+        @media screen and (max-width: $tablets-width){
+          bottom: 0;
+          opacity: .5;
+          transition: none;
+          -webkit-transition: none;
+          -moz-transition: none;
+        }
+
+      }
+    }
+ }
+// center vertically and/or horizontally an absolute positioned element
+
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+    @include transform(translateX(-50%));
+  }
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    @include transform(translateY(-50%));
+  }
+}
+
+// antialiasing mode font rendering
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

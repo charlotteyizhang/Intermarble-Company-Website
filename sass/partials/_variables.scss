@@ -1,0 +1,89 @@
+$red: #FF0000;
+$white: #FFFFFF;
+$grey: #808080;
+$pink: #FFCBDB;
+$brown: #964B00;
+$orange: #FF7F00;
+$yellow: #FFFF00;
+$green: #00FF00;
+$cyan: #00FFFF;
+$blue: #0000FF;
+$violet: #7F00FF;
+$black: #000000;
+$duke-blue: #001A57;
+$blue-gray: #6699CC;
+$main-green: #00647D;
+$alice-blue: #F0F8FF;
+$ash-gray: #B2BEB5;
+ 
+/*
+You can define a default that is used only if a value isn't
+assigned any place else
+ 
+$default-text-color: $black !default;
+*/
+
+/* width */
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+$small-width : 576px;
+
+// Medium devices (tablets, 768px and up)
+$tablets-width : 768px;
+
+// Large devices (desktops, 992px and up)
+$desktop-width : 992px;
+
+// Extra large devices (large desktops, 1200px and up)
+$large-desktop-width : 1200px;
+
+/* fonts */
+
+$logo-font : sans-serif;
+
+$title-font : 'Abril Fatface',  'Noto Sans', "Helvetica Neue",Helvetica,Arial,sans-serif, '微软雅黑';
+
+$content-font: 'Montserrat', 'Noto Sans', "Helvetica Neue",Helvetica,Arial,sans-serif, '微软雅黑';
+
+$extra-large-font-size: 2em;
+
+$large-font-size: 1.5em;
+
+$medium-font-size: 1em;
+
+$small-font-size: 0.8em;
+
+/* letter spacing */
+
+$large-letter-spacing: .8em;
+
+$medium-letter-spacing: .3em;
+
+
+/* colours */
+
+$primary-colour: $black;
+
+$secondary-colour: $green;
+
+$content-colour: #808080;
+
+$background-colour: #809379;
+
+$neutral-colour: $grey;
+
+$text-colour: $grey;
+
+$unimportant-colour: #ccc9c9;
+
+/* z-index */
+
+
+
+// animation duration
+
+$expand-animation-duration: .4s;
+
