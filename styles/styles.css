@@ -18,7 +18,7 @@ $default-text-color: $black !default;
  * and $rhythm-unit variables. Also, correct text resizing oddly in IE 6/7 when
  * body `font-size` is set using `em` units.
  */
-/* line 106, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em;
@@ -791,23 +791,24 @@ footer {
   margin-top: 20px;
   border-top: 1px solid #ccc9c9;
   text-align: center;
+  height: 80px;
   text-transform: uppercase;
   font-family: "Montserrat", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "微软雅黑";
   color: #ccc9c9;
   font-size: 0.8em;
   font-weight: border;
 }
-/* line 46, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 footer p {
   margin: 0.2em;
 }
-/* line 50, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 footer a {
   text-decoration: underline;
   color: #ccc9c9;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .preload {
   opacity: 0;
   transition: opacity .5s ease-in-out;
@@ -818,7 +819,7 @@ footer a {
  * nav
  *
  */
-/* line 69, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .simple-nav-btn, .addressed-nav-btn {
   text-transform: uppercase;
   font-size: 0.8em;
@@ -826,42 +827,42 @@ footer a {
   letter-spacing: 0.3em;
 }
 @media all and (max-width: 768px) {
-  /* line 69, ../sass/styles.scss */
+  /* line 70, ../sass/styles.scss */
   .simple-nav-btn, .addressed-nav-btn {
     padding: 0 2em;
   }
 }
 
-/* line 80, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 .nav-active {
   color: #000000;
 }
 
-/* line 84, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 .addressed-nav-btn {
   border: 1px solid #000000;
 }
-/* line 87, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 .addressed-nav-btn:hover {
   color: #FFFFFF;
   background-color: #808080;
 }
 
-/* line 92, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .navbar-brand img {
   max-height: 30px;
   margin-right: 10px;
   transition: height 1s ease-in-out;
 }
 
-/* line 100, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 .navbar-brand {
   letter-spacing: 0.2rem;
   font-weight: bolder;
   color: #333333 !important;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 #wrap {
   height: 100%;
 }
@@ -871,19 +872,19 @@ footer a {
  * section1
  *
  */
-/* line 126, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .im-intro {
   position: relative;
   height: 800px;
 }
-/* line 129, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 .im-intro-bg {
   position: absolute;
   width: 100%;
   height: inherit;
   z-index: -1;
 }
-/* line 136, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .im-intro-text {
   position: absolute;
   max-width: 100% !important;
@@ -895,52 +896,52 @@ footer a {
   text-transform: uppercase;
 }
 
-/* line 151, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 .im-intro-bg {
   height: 100%;
   width: 100%;
   max-width: 100%;
 }
 
-/* line 158, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 .main-carousel {
   position: relative;
   height: 100%;
   width: auto;
 }
 
-/* line 164, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 .max-height-fixed {
   height: 100%;
   max-height: 1000px;
 }
 
-/* line 170, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 .carousel-item {
   height: 100%;
   max-width: 100%;
 }
 
-/* line 176, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 .w-100 {
   height: 100%;
   width: auto;
   object-fit: cover;
 }
 
-/* line 182, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 .im-intro-text-row {
   height: inherit;
   background-color: transparent;
 }
-/* line 187, ../sass/styles.scss */
+/* line 188, ../sass/styles.scss */
 .im-intro-text-row a:nth-child(1) {
   background-color: rgba(3, 3, 3, 0.5);
   animation: up 0.4s ease-in-out;
   -webkit-animation: up 0.4s ease-in-out;
 }
 @media screen and (max-width: 768px) {
-  /* line 187, ../sass/styles.scss */
+  /* line 188, ../sass/styles.scss */
   .im-intro-text-row a:nth-child(1) {
     animation: none;
     -webkit-animation: none;
@@ -990,14 +991,14 @@ footer a {
     -moz-transition: none;
   }
 }
-/* line 193, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 .im-intro-text-row a:nth-child(2) {
   background-color: rgba(3, 3, 3, 0.5);
   animation: up 0.6s ease-in-out;
   -webkit-animation: up 0.6s ease-in-out;
 }
 @media screen and (max-width: 768px) {
-  /* line 193, ../sass/styles.scss */
+  /* line 194, ../sass/styles.scss */
   .im-intro-text-row a:nth-child(2) {
     animation: none;
     -webkit-animation: none;
@@ -1047,14 +1048,14 @@ footer a {
     -moz-transition: none;
   }
 }
-/* line 197, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 .im-intro-text-row a:nth-child(3) {
   background-color: rgba(3, 3, 3, 0.5);
   animation: up 0.8s ease-in-out;
   -webkit-animation: up 0.8s ease-in-out;
 }
 @media screen and (max-width: 768px) {
-  /* line 197, ../sass/styles.scss */
+  /* line 198, ../sass/styles.scss */
   .im-intro-text-row a:nth-child(3) {
     animation: none;
     -webkit-animation: none;
@@ -1104,14 +1105,14 @@ footer a {
     -moz-transition: none;
   }
 }
-/* line 201, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 .im-intro-text-row a:nth-child(4) {
   background-color: rgba(3, 3, 3, 0.5);
   animation: up 1s ease-in-out;
   -webkit-animation: up 1s ease-in-out;
 }
 @media screen and (max-width: 768px) {
-  /* line 201, ../sass/styles.scss */
+  /* line 202, ../sass/styles.scss */
   .im-intro-text-row a:nth-child(4) {
     animation: none;
     -webkit-animation: none;
@@ -1162,12 +1163,12 @@ footer a {
   }
 }
 
-/* line 207, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 .im-intro-text-row > a:not(:last-child) {
   border-right: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-/* line 211, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 .max-height-fixed {
   max-height: 800px;
 }
@@ -1193,30 +1194,30 @@ footer a {
  * setion2
  *
  */
-/* line 245, ../sass/styles.scss */
+/* line 246, ../sass/styles.scss */
 .im-second-nav {
   padding: 4rem 0;
 }
 @media all and (max-width: 768px) {
-  /* line 245, ../sass/styles.scss */
+  /* line 246, ../sass/styles.scss */
   .im-second-nav {
     padding: 1rem 0 0 0;
   }
 }
-/* line 252, ../sass/styles.scss */
+/* line 253, ../sass/styles.scss */
 .im-second-nav > div {
   width: 90%;
   margin: 0 5%;
   height: 300px;
 }
 @media all and (max-width: 768px) {
-  /* line 252, ../sass/styles.scss */
+  /* line 253, ../sass/styles.scss */
   .im-second-nav > div {
     width: 98%;
     margin: auto;
   }
 }
-/* line 262, ../sass/styles.scss */
+/* line 263, ../sass/styles.scss */
 .im-second-nav a {
   position: absolute;
   font-size: 1.5em;
@@ -1234,7 +1235,7 @@ footer a {
   -moz-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-/* line 281, ../sass/styles.scss */
+/* line 282, ../sass/styles.scss */
 .im-second-nav a::after {
   -webkit-transition: height 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
   -moz-transition: height 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1249,16 +1250,16 @@ footer a {
   bottom: 0;
   z-index: -1;
 }
-/* line 296, ../sass/styles.scss */
+/* line 297, ../sass/styles.scss */
 .im-second-nav a:hover {
   text-decoration: none;
   color: #FFFFFF;
 }
-/* line 300, ../sass/styles.scss */
+/* line 301, ../sass/styles.scss */
 .im-second-nav a:hover::after {
   height: 100%;
 }
-/* line 306, ../sass/styles.scss */
+/* line 307, ../sass/styles.scss */
 .im-second-nav img {
   object-fit: cover;
   width: 100%;
@@ -1271,12 +1272,12 @@ footer a {
  * section about us
  *
  */
-/* line 321, ../sass/styles.scss */
+/* line 322, ../sass/styles.scss */
 #im-about {
   margin-bottom: 100px;
 }
 
-/* line 326, ../sass/styles.scss */
+/* line 327, ../sass/styles.scss */
 .im-about-text p {
   white-space: pre-line;
   font-size: 1em;
@@ -1291,12 +1292,12 @@ footer a {
   left: 45%;
 }
 @media all and (max-width: 768px) {
-  /* line 326, ../sass/styles.scss */
+  /* line 327, ../sass/styles.scss */
   .im-about-text p {
     position: relative;
   }
 }
-/* line 343, ../sass/styles.scss */
+/* line 344, ../sass/styles.scss */
 .im-about-pic img {
   max-width: 92%;
   border-radius: 30px;
@@ -1308,13 +1309,13 @@ footer a {
  * Block comment
  *
  */
-/* line 356, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
 .im-contact-row {
   width: 98%;
   margin: auto;
   text-align: center;
 }
-/* line 361, ../sass/styles.scss */
+/* line 362, ../sass/styles.scss */
 .im-contact-row p {
   white-space: pre-line;
   line-height: 1.5em;
@@ -1322,7 +1323,7 @@ footer a {
 }
 
 @media all and (max-width: 768px) {
-  /* line 375, ../sass/styles.scss */
+  /* line 376, ../sass/styles.scss */
   .im-intro-text-row a:nth-child(1) {
     background-color: rgba(3, 3, 3, 0.5);
     animation: up 0.4s ease-in-out;
@@ -1356,7 +1357,7 @@ footer a {
     -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
     -moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
-  /* line 381, ../sass/styles.scss */
+  /* line 382, ../sass/styles.scss */
   .im-intro-text-row a:nth-child(2) {
     background-color: rgba(3, 3, 3, 0.5);
     animation: up 0.6s ease-in-out;
@@ -1390,7 +1391,7 @@ footer a {
     -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
     -moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
-  /* line 385, ../sass/styles.scss */
+  /* line 386, ../sass/styles.scss */
   .im-intro-text-row a:nth-child(3) {
     background-color: rgba(3, 3, 3, 0.5);
     animation: up 0.8s ease-in-out;
@@ -1424,7 +1425,7 @@ footer a {
     -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
     -moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
-  /* line 389, ../sass/styles.scss */
+  /* line 390, ../sass/styles.scss */
   .im-intro-text-row a:nth-child(4) {
     background-color: rgba(3, 3, 3, 0.5);
     animation: up 1s ease-in-out;

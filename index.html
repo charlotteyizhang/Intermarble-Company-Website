@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="keywords" content="water jet, waterjet, water jet cutting, waterjet cutting, water jet watford, waterjet watford, water jet london, waterjet london">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -137,7 +137,7 @@
             <h1>Contact</h1>
             <div class="row im-contact-row">
               <!-- google map -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.201112188781!2d-0.39395538410077674!3d51.67446172966296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766aa573c3e4a5%3A0x2b990f9e88c5bb52!2sWatford+WD24+7UB!5e0!3m2!1sen!2suk!4v1518364512253" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.2008089976775!2d-0.3946143841578025!3d51.67446727966291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766aa50cc5a2f3%3A0xca66aef456b0c4fb!2sIntermarble+Stone+Solutions+Ltd!5e0!3m2!1sen!2suk!4v1557170355563!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
             </div>
 
@@ -146,8 +146,12 @@
                 Sandown Road, 
                 WD24 7UB, Watford
               </p>
-              <p>Email: info@intermarble.co.uk<br>Tel: 0149 4784 805</p>
+
+              <p>Email: info@intermarble.co.uk<br>Tel: 020 337 11 466</p>
+              <what3words-address words="traded.employ.tried" size="14"/>
             </div>
+
+
          </div>
        </section>
        
@@ -155,18 +159,20 @@
        <!--====  End of Contact  ====-->
        
        
-       
+       <footer>
+  
+            <p>Copyright interMarble</p>
+            <a href="mailto:charlotte.yi.zhang@gmail.com/?subject=Web Design Enquiry">Site design by Charlotte Zhang</a>
+
+      </footer>
+        
+
       
     <!-- </div> -->
     </div>
     
     <!--====  End of main body  ====-->
 
-    <footer>
-      <p>Copyright interMarble</p>
-      <a href="charlottezhang.com">Site design by Charlotte Zhang</a>
-    </footer>
-    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -176,11 +182,16 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascript/myjs.js"></script>
+    <script src="https://assets.what3words.com/sdk/v3/what3words.js"></script>
     <script>
       $(function() {
         initNav();
+
+        if(window.location.href.indexOf('index.html') == -1){
+          window.location.href += 'index.html';
+        }
         scroll();
-           $('body').removeClass('preload');  
+        $('body').removeClass('preload');  
       })
       
     </script>

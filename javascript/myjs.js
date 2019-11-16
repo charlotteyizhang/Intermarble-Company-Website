@@ -13,7 +13,7 @@ function initNav(){
 }
 
 function scroll(el){
-    if(window.location.href.indexOf('index') != -1 ){
+    if(window.location.href.indexOf('index') != -1){
         if (el && el.hash !== "") {
             event.preventDefault();
             var hash = el.hash;
